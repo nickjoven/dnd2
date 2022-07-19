@@ -4,13 +4,9 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-#header-image {
+#header-img {
   height: auto;
   width: 65%;
-}
-
-h1, h2, h3 {
-  font-family: 'Cinzel';
 }
 
 .screen {
@@ -28,19 +24,24 @@ h1, h2, h3 {
 }
 
 .menu-links {
-  margin-top: -10px;
-  
+  margin-top: -10%;
 }
 
 .menu-links h3 {
-  color: white;
+  color: #fff;
   font-size: 2em;
   padding-left: 2.5%;
 }
 
 .menu-links h3:hover {
-  color: rgb(255, 213, 0);
   cursor: pointer;
+  color: orange;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Cinzel';
 }
 
 .selected-char-img {
@@ -51,4 +52,10 @@ h1, h2, h3 {
 
 .char-select-container {
   display: flex;
+}
+
+.char-name,
+.class-select {
+  text-align: center;
+  font-size: 1.5em;
 }

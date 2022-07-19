@@ -25,12 +25,11 @@ const CreateACharacter = () => {
 
     return (
         <div>
-            <h1>Create A Character</h1>
+            <h1 style={{textAlign: 'center'}}>Create A Character</h1>
             <div className='char-select-container'>
                 <div>
-                <img src={selectedCharImg} className="selected-char-img" />
-                </div>
-                <div>
+                    <input type={'text'} className='char-name' placeholder='Name your character' />
+                    <br></br>
                     <select onChange={handleCharSelect}>
                         {
                             Object.keys(portraitMap).map((element) => {
@@ -40,6 +39,9 @@ const CreateACharacter = () => {
                                 })
                             }
                     </select>
+                </div>
+                <div>
+                <img src={selectedCharImg} className="selected-char-img" />
                 </div>
             </div>
         </div>
