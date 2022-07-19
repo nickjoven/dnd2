@@ -9,6 +9,10 @@
   width: 65%;
 }
 
+h1, h2, h3 {
+  font-family: 'Cinzel';
+}
+
 .screen {
   display: flex;
   justify-content: center;
@@ -21,4 +25,30 @@
   width: 100%;
   object-fit: fill;
   z-index: -1;
+}
+
+.menu-links {
+  margin-top: -10px;
+  
+}
+
+.menu-links h3 {
+  color: white;
+  font-size: 2em;
+  padding-left: 2.5%;
+}
+
+.menu-links h3:hover {
+  color: rgb(255, 213, 0);
+  cursor: pointer;
+}
+
+.selected-char-img {
+  width: 400px;
+  height: auto;
+  display: block;
+}
+
+.char-select-container {
+  display: flex;
 }
